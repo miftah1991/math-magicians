@@ -21,14 +21,13 @@ body {
 }
 
 .p-4 {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   border: 1px solid black;
   color: black;
 }
 
 .btn-warning {
-  background-color: #F5913E;
+  background-color: #f5913e;
   border: 1px solid black;
   color: black;
 }
-
