@@ -21,7 +21,7 @@ class Calculator extends Component {
       <Container>
         <Row className="m-2">
           <Col>
-            <div dir="rtl" className="w-100 p-2">
+            <div dir="rtl" className="w-100 p-2 result">
               {this.state.result}
             </div>
           </Col>
@@ -37,7 +37,7 @@ class Calculator extends Component {
             <Button className="w-100 p-4">%</Button>
           </Col>
           <Col>
-            <Button className="w-100 p-4" variant="warning">
+            <Button className="w-100 p-4 btn-warning" >
               /
             </Button>
           </Col>
@@ -53,7 +53,7 @@ class Calculator extends Component {
             <Button className="w-100 p-4">9</Button>
           </Col>
           <Col>
-            <Button className="w-100 p-4" variant="warning">
+            <Button className="w-100 p-4 btn-warning">
               x
             </Button>
           </Col>
@@ -69,7 +69,7 @@ class Calculator extends Component {
             <Button className="w-100 p-4">6</Button>
           </Col>
           <Col>
-            <Button className="w-100 p-4" variant="warning">
+            <Button className="w-100 p-4 btn-warning">
               -
             </Button>
           </Col>
@@ -85,7 +85,7 @@ class Calculator extends Component {
             <Button className="w-100 p-4">3</Button>
           </Col>
           <Col>
-            <Button className="w-100 p-4" variant="warning">
+            <Button className="w-100 p-4 btn-warning">
               +
             </Button>
           </Col>
@@ -98,7 +98,7 @@ class Calculator extends Component {
             <Button className="w-100 p-4">.</Button>
           </Col>
           <Col>
-            <Button className="w-100 p-4" variant="warning">
+            <Button className="w-100 p-4 btn-warning">
               =
             </Button>
           </Col>
