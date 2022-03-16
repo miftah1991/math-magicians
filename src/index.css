@@ -16,10 +16,6 @@ body {
   margin: 10rem;
 }
 
-.p-2 {
-  background-color: gray;
-}
-
 .p-4 {
   background-color: #e0e0e0;
   border: 1px solid #dbdbdb;
@@ -50,5 +46,8 @@ body {
 }
 
 .result {
+  background-color: gray;
   line-height: 43px;
+  min-height: 7vh;
+  text-align: right;
 }
