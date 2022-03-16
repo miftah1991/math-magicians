@@ -49,7 +49,7 @@ class Calculator extends Component {
           </Col>
           <Col>
             <Button className="w-100 p-4 btn-warning" onClick={this.clickHandler} >
-              /
+            ÷
             </Button>
           </Col>
         </Row>
