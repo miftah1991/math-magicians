@@ -19,3 +19,16 @@ body {
 .p-2 {
   background-color: gray;
 }
+
+.p-4 {
+  background-color: #E0E0E0;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-warning {
+  background-color: #F5913E;
+  border: 1px solid black;
+  color: black;
+}
+

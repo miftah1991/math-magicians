@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 // prettier-ignore
 import {
   Container,
@@ -20,11 +19,6 @@ class Calculator extends Component {
   render() {
     return (
       <Container>
-        <div class="row">
-          <div class="col-lg-12">
-              this is simple div
-          </div>
-        </div>
         <Row className="m-2">
           <Col>
             <div dir="rtl" className="w-100 p-2">
@@ -97,10 +91,10 @@ class Calculator extends Component {
           </Col>
         </Row>
         <Row className="m-2">
-          <Col>
+          <Col xs={6}>
             <Button className="w-100 p-4">0</Button>
           </Col>
-          <Col xs={6}>
+          <Col>
             <Button className="w-100 p-4">.</Button>
           </Col>
           <Col>
