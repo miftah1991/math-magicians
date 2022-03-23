@@ -19,7 +19,7 @@ import calculate from '../logic/calculate';
     setResult(calculate(result, e.target.textContent));
   };
     return (
-    <div className="container">
+    <>
       <Container>
         <Row className="m-3">
           <Col>
@@ -108,7 +108,7 @@ import calculate from '../logic/calculate';
           </Col>
         </Row>
       </Container>
-      </div>
+      </>
     );
     };
 
